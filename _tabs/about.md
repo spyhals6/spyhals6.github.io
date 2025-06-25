@@ -7,8 +7,7 @@ order: 4
 ---
 
 # Who I Am
-<img src="https://i.imgur.com/EB0Dh7K.gif" alt="funny" width="200"
-style="border-radius: 50%;">
+<img src="https://i.imgur.com/EB0Dh7K.gif" alt="funny" width="200" style="border:1px solid black;">
 
 **Here is some info about my nerdy-self, since personality matters.**
 - I'm a 21 year old engineering student with a passion for anything technology related!
