@@ -34,7 +34,6 @@ order: 4
   </div>
 </div>
 
-{% raw %}
 <style>
   /* Basic styles for the slideshow container */
   .slideshow-container {
@@ -87,7 +86,6 @@ order: 4
     transition: opacity 1s ease-in-out;
   }
 </style>
-{% endraw %}
 
 **Here is some info about my nerdy-self, since personality matters.**
 - I'm a 21 year old engineering student with a passion for anything technology related!
