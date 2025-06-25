@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# 
+# Who I Am
 <div class="slideshow-container">
   <div class="mySlides fade">
     <img src="https://i.imgur.com/YEziibM.jpg" style="width:100%">
@@ -19,19 +19,27 @@ order: 4
 
 {% raw %}
 <script>
-  let slideIndex = 0;
+  document.addEventListener("DOMContentLoaded", function() {
+    let slideIndex = 0;
 
-  function showSlides() {
-    let slides = document.getElementsByClassName("mySlides");
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+    function showSlides() {
+      let slides = document.querySelectorAll(".mySlides");
+      slides.forEach(function(slide) {
+        slide.style.display = "none";  // Hide all slides
+      });
+      
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;  // Reset to first slide if we're past the last one
+      }
+      
+      slides[slideIndex - 1].style.display = "block";  // Show the current slide
+
+      setTimeout(showSlides, 2000);  // Change image every 2 seconds
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    slides[slideIndex-1].style.display = "block";  
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }
-  showSlides();
+
+    showSlides();  // Start the slideshow
+  });
 </script>
 {% endraw %}
 
