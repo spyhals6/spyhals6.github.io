@@ -15,7 +15,7 @@ order: 4
   </div>
 
   <div class="mySlides fade">
-    <img src="https://i.imgur.com/EB0Dh7K.gif" style="width:100%">
+    <img src="https://i.imgur.com/RWhiDwp.jpeg" style="width:100%">
   </div>
 
 </div>
