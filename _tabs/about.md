@@ -31,6 +31,26 @@ order: 4
   }
   showSlides();
 </script>
+
+<style>
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+
 **Here is some info about my nerdy-self, since personality matters.**
 - I'm a 21 year old engineering student with a passion for anything technology related!
 - Because I'm a nerd, I operate my own home-lab where I develop or play around with computers, servers, or open-source softwares.
