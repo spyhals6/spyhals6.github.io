@@ -3,16 +3,51 @@
 icon: fas fa-info-circle
 order: 4
 ---
+# Who I Am
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="https://i.imgur.com/YEziibM.jpeg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="https://i.imgur.com/xIzTlgm.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="https://i.imgur.com/EB0Dh7K.gif" style="width:100%">
+  </div>
+</div>
+
+<script>
+  let slideIndex = 0;
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  showSlides();
+</script>
+**Here is some info about my nerdy-self, since personality matters.**
+- I'm a 21 year old engineering student with a passion for anything technology related!
+- Because I'm a nerd, I operate my own home-lab where I develop or play around with computers, servers, or open-source softwares.
+- My personal interests include...
+    - Working on my gaming desktop I custom built myself
+    - Assisting friends online with computer or hardware related issues
+    - Becoming a technical wizard whom can control magical rocks (silicon) to 'think'
 
 # Education
 <img src="https://i.imgur.com/zQPDAnd.png" alt="sparty" width="200" style="border-radius: 50%;">
 
-Hello, my name is Jackson Spyhalski and I am a junior student attending Michigan State University for Computer Science Engineering!
+**Junior student at Michigan State University for Computer Science Engineering**
 - Specializing in Networking and Cybersecurity
 - Studying for a CompTIA Network+ certification
 
 # Experiences
-IT Assistant Volunteer Intern : Packard Proving Grounds Historic Site
+**IT Assistant Volunteer Intern : Packard Proving Grounds Historic Site**
 <iframe
   width="100%"
   height="450"
@@ -25,5 +60,3 @@ IT Assistant Volunteer Intern : Packard Proving Grounds Historic Site
 - Completed Projects:
     - Installing a few IoT cameras on a local network
     - Developing an open-source kiosk solution via linux
-
-# Specialization
