@@ -2,8 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-# credits to https://www.w3schools.com/howto/howto_js_slideshow.asp
-# i'm gonna lose it gng :(
+# friend had to sleep
 ---
 
 # Who I Am
