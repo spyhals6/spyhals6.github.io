@@ -3,17 +3,8 @@
 icon: fas fa-info-circle
 order: 4
 ---
-# Who I Am
----
-layout: page
-title: About Me
-permalink: /about/
----
 
-# About Me
-
-Here's a slideshow that includes a GIF:
-
+# 
 <div class="slideshow-container">
   <div class="mySlides fade">
     <img src="https://i.imgur.com/YEziibM.jpg" style="width:100%">
