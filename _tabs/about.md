@@ -5,51 +5,28 @@ order: 4
 ---
 # Who I Am
 <div class="slideshow-container">
+
   <div class="mySlides fade">
     <img src="https://i.imgur.com/YEziibM.jpeg" style="width:100%">
   </div>
+
   <div class="mySlides fade">
     <img src="https://i.imgur.com/xIzTlgm.png" style="width:100%">
   </div>
+
   <div class="mySlides fade">
     <img src="https://i.imgur.com/EB0Dh7K.gif" style="width:100%">
   </div>
+
 </div>
 
-<script>
-  let slideIndex = 0;
+<br>
 
-  function showSlides() {
-    let slides = document.getElementsByClassName("mySlides");
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    slides[slideIndex-1].style.display = "block";  
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-  }
-  showSlides();
-</script>
-
-<style>
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-.mySlides {
-  display: none;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-</style>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
 
 **Here is some info about my nerdy-self, since personality matters.**
 - I'm a 21 year old engineering student with a passion for anything technology related!
